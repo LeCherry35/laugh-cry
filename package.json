@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
+    "start": "gulp",
+    "server": "nodemon ./src/server.js"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +20,14 @@
     "gulp-sourcemaps": "^3.0.0",
     "node-sass": "^7.0.1",
     "postcss": "^8.4.13"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.3",
+    "nodemon": "^2.0.16"
   }
 }
